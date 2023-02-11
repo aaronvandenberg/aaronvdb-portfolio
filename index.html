@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Boilerplate</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
 
-  <body>
+  <div class="container">
+<nav class="nav">
+  <ul class="ul">
+    <li id="about">/about</li>
+    <li id="projects">/projects</li>
+    <li id="">/contact</li>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Aaron Van Den Berg</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  </ul>
+</nav>
+  </div>
+
+  <main>
+    <h1>root:$<span class="cursor">|</span></h1>
     
-      <div class="collapse navbar-collapse me-auto" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          </li>
-        </ul>
+  </main>
+  <div class="hidden">
+    <div class="about-content">
+      <h2>about-me:$ <span class="cursor">|</span></h2>
+    </div>
+
+    <div class="hidden">
+      <div class="about-content">
+        <h2>about-me:$<span class="cursor"></span></h2>
+         <p>  _________________ </p>
+         <p> |  _____________  |</p>
+          <p>| | HELLO WORLD | |</p>
+          <p>| |_____________| |</p>
+          <p>|_________________|</p>
       </div>
-    </nav>
-	<script src="index.js"></script>
-  </body>
+    </div>
+
+  </div>
+
+  <script src="assets/winbox.js"></script>
+  <script src="/js/main.js"></script>
+</body>
 </html>

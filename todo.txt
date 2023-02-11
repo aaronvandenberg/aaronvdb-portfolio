@@ -1,0 +1,4 @@
+-complete footer
+-complete carousel
+-complete About me
+-complete 

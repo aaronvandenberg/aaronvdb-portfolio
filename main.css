@@ -1,35 +1,80 @@
-/*
-Created by Aaron Van Den Berg
-
-Color Pallete from https://colorhunt.co/palette/0a26471442722052952c74b3
-
-
-*/
-
-
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+ --text-color: #33CCFF;
+}
 
 body{
-background: #121212;
-	
+    background:#000;
+    background-image: url(Gterminal.png);
+    font-family: monospace;
+    font-size: 18px;
+    height:100%;
+    width:100%;
+    color: var(--text-color);
+    line-height: 1.6;
 }
 
-
-body .a{
-	color: #809fff;
-
-}
-
-.navbar-brand
+a
 {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin:0 auto;
-}
-.navbar-toggle {
-    z-index:4;
+  color: inherit;
+  outline:0;
+  text-decoration:none;
+  font-weight: bold;
 }
 
+h1 {
+color: var(--text-color);
+font-size: 30px;
+letter-spacing: -1px;
+margin-bottom: 20px;
+}
+
+h2{
+    color: var(--text-color);
+}
+
+h3{
+    margin-bottom: 5px;
+}
+
+.hidden{
+    display: none;
+}
 
 
+nav{
+    width: 30%;
+}
+
+nav ul{
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15;
+}
+
+nav ul li{
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.cursor{
+font-weight: 700;
+animation: 2s blink step-end infinite;
+}
+
+@keyframes blink {
+    from, to{
+        color:transparent;
+    }
+
+    50% {
+        color: var(--text-color);
+    }
+}
