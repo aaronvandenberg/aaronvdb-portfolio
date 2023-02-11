@@ -4,11 +4,11 @@
     margin: 0;
 }
 :root{
- --text-color: #33CCFF;
+ --text-color: #00E4FF;
 }
 
 body{
-    background:#000;
+    background:#002B36;
     background-image: url(Gterminal.png);
     font-family: monospace;
     font-size: 18px;
@@ -34,6 +34,7 @@ margin-bottom: 20px;
 }
 
 h2{
+    
     color: var(--text-color);
 }
 
@@ -45,6 +46,9 @@ h3{
     display: none;
 }
 
+p{
+    padding-bottom: 10px;
+}
 
 nav{
     width: 30%;
@@ -77,4 +81,14 @@ animation: 2s blink step-end infinite;
     50% {
         color: var(--text-color);
     }
+}
+
+.wb-body{
+    background-color: #002B36;
+    padding: 20px
+}
+
+.sclmd{
+padding-top: 450px;
+
 }
