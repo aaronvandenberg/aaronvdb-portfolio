@@ -92,3 +92,19 @@ animation: 2s blink step-end infinite;
 padding-top: 450px;
 
 }
+
+
+ul{
+
+	display: flex;
+	align-items: center;
+
+}
+
+
+li{
+	display: flex;
+	align-content: center;
+
+
+}
